@@ -1,24 +1,13 @@
-<<<<<<< HEAD
-# Crud-App-For-Songs
-=======
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
+Welcome to the Song List App! This is a simple web application built with React and Redux for managing a list of songs. Users can add new songs, edit existing ones, and delete songs from the list.
+#Features
+Add New Songs: Users can add new songs to the list by providing details such as title, artist, album, year, and image URL.
+Edit Existing Songs: Users can edit the details of existing songs, including title, artist, album, year, and image URL.
+Delete Songs: Users can delete songs from the list, removing them permanently.
+#Technologies Used
+React: The frontend of the application is built using React, a popular JavaScript library for building user interfaces.
+Redux: Redux is used for state management in the application, providing a centralized store for managing application state.
+Emotion: Emotion is used for styling components in the application, allowing for the creation of styled components with CSS-in-JS.
+Redux Saga: Redux Saga is used for managing side effects such as asynchronous data fetching and updating.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
