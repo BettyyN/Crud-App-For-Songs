@@ -8,12 +8,8 @@ Delete Songs: Users can delete songs from the list, removing them permanently.
 
 # Technologies Used
 
-React: The frontend of the application is built using React, a popular JavaScript library for building user interfaces.
-Redux: Redux is used for state management in the application, providing a centralized store for managing application state.
-Emotion: Emotion is used for styling components in the application, allowing for the creation of styled components with CSS-in-JS.
+React: The frontend of the application is built using React, Redux is used for state management in the application and Emotion is used for styling components in the application,
 Redux Saga: Redux Saga is used for managing side effects such as asynchronous data fetching and updating.
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
