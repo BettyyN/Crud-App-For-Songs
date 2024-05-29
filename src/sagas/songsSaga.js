@@ -20,7 +20,7 @@ const API_URL = "http://localhost:8000/songs";
 
 function* fetchSongs() {
   try {
-    const response = yield call(axios.get, "http://localhost:8000/songs");
+    const response = yield call(axios.get, API_URL);
     yield put(fetchSongsSuccess(response.data));
   } catch (error) {
     yield put(fetchSongsFailure(error.message));
@@ -29,7 +29,7 @@ function* fetchSongs() {
 
 function* createSong(action) {
   try {
-    const response = yield call(axios.post,"http://localhost:8000/songs", action.payload);
+    const response = yield call(axios.post,API_URL, action.payload);
     yield put(createSongSuccess(response.data));
   } catch (error) {
     yield put(createSongFailure(error.message));
@@ -40,7 +40,7 @@ function* updateSong(action) {
   try {
     const response = yield call(
       axios.put,
-      `${"http://localhost:8000/songs"}/${action.payload.id}`,
+      `${API_URL}/${action.payload.id}`,
       action.payload
     );
     yield put(updateSongSuccess(response.data));
@@ -51,7 +51,7 @@ function* updateSong(action) {
 
 function* deleteSong(action) {
   try {
-    yield call(axios.delete, `${"http://localhost:8000/songs"}/${action.payload}`);
+    yield call(axios.delete, `${API_URL}/${action.payload}`);
     yield put(deleteSongSuccess(action.payload));
   } catch (error) {
     yield put(deleteSongFailure(error.message));
