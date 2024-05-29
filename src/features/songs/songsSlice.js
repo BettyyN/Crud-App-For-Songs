@@ -1,4 +1,3 @@
-// src/features/songs/songsSlice.js
 import { createSlice } from "@reduxjs/toolkit";
 
 const songsSlice = createSlice({

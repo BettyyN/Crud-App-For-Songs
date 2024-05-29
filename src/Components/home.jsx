@@ -11,15 +11,18 @@ import {
 } from "../features/songs/songsSlice";
 import CreateSongModal from "./createSongModal";
 import Update from "./update";
-import SongMenu from "./SongMenu"; // Changed to SongMenu to match your import
+import SongMenu from "./SongMenu"; 
 
 const Container = styled.div`
   background-image: url("/assets/bg-img.jpg");
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  min-height: 100vh; 
+  padding-bottom: 20px; 
   width: 100%;
+  overflow-y: auto; 
 `;
+
 
 const Header = styled.header`
   display: flex;
