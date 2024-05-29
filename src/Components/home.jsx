@@ -11,7 +11,7 @@ import {
 } from "../features/songs/songsSlice";
 import CreateSongModal from "./createSongModal";
 import Update from "./update";
-import SongMenu from "./edit"; // Changed to SongMenu to match your import
+import SongMenu from "./SongMenu"; // Changed to SongMenu to match your import
 
 const Container = styled.div`
   background-image: url("/assets/bg-img.jpg");
