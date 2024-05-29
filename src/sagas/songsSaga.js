@@ -16,7 +16,7 @@ import {
   deleteSongFailure,
 } from "../features/songs/songsSlice";
 
-const API_URL = "http://localhost:3000/songs"; // Adjust the URL to match your JSON server
+const API_URL = "http://localhost:8000/songs"; // Adjust the URL to match your JSON server
 
 function* fetchSongs() {
   try {
