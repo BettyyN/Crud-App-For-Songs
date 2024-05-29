@@ -11,4 +11,9 @@ Delete Songs: Users can delete songs from the list, removing them permanently.
 React: The frontend of the application is built using React, Redux is used for state management in the application and Emotion is used for styling components in the application,
 Redux Saga is used for managing side effects such as asynchronous data fetching and updating.
 
+## Deployed Application
+
+The application is deployed and can be accessed [here](https://main--verdant-syrniki-5e70aa.netlify.app/).
+
+
 
