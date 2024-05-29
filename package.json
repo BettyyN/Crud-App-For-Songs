@@ -30,12 +30,15 @@
     "start:api": "json-server --watch db.json --port 8000",
     "start:all": "concurrently \"npm run start:api\" \"npm start\""
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
+ "eslintConfig": {
+  "extends": [
+    "react-app",
+    "react-app/jest"
+  ],
+  "rules": {
+    "no-unused-vars": ["warn", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }]
+  }
+},
   "browserslist": {
     "production": [
       ">0.2%",
