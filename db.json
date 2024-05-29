@@ -1,0 +1,12 @@
+{
+  "songs": [
+    {
+      "id": "3",
+      "title": "Hotel California",
+      "artist": "Eagle",
+      "album": "Hotel California",
+      "year": 1976,
+      "img": "/assets/singer1.jpg"
+    }
+  ]
+}
