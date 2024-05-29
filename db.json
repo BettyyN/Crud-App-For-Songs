@@ -7,6 +7,14 @@
       "album": "Hotel California",
       "year": 1976,
       "img": "/assets/singer1.jpg"
+    },
+    {
+      "id": "c8c5",
+      "title": "Sky",
+      "artist": "Adel",
+      "album": "New Album",
+      "year": "2022",
+      "img": "https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg"
     }
   ]
 }
