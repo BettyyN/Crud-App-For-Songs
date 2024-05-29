@@ -117,6 +117,7 @@ const SongText = styled.div`
 
 function Home() {
   const dispatch = useDispatch();
+  // eslint-disable-next-line no-unused-vars
   const { list: songs, loading, error } = useSelector((state) => state.songs);
   const [isCreateFormVisible, setCreateFormVisible] = useState(false);
   const [isUpdateFormVisible, setUpdateFormVisible] = useState(false);
